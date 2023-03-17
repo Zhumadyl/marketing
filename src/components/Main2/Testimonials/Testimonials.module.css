@@ -1,0 +1,81 @@
+.main {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -120px;
+  padding-bottom: 100px;
+}
+
+.sliderButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: #F9FAFB;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.customPrevButton {
+  left: -30%;
+}
+
+.customNextButton {
+  right: -30%;
+}
+
+.feedback {
+  margin-top: 190px;
+}
+
+.feedback div p {
+  color: #212B36;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  width: 500px;
+  height: 108px;
+}
+
+.feedback h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #212B36;
+  text-align: right;
+}
+
+.feedback>p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #637381;
+  margin-top: -10px;
+  text-align: right;
+  margin-right: 18px;
+}
+
+.wrapper {
+  background: #F9FAFB;
+  text-align: center;
+  height: 690px;
+}
+
+.wrapper>div>p {
+  padding-top: 100px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.wrapper>div>h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: #212B36;
+}
