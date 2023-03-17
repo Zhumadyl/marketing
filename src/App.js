@@ -1,3 +1,9 @@
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./main2/Header/Header";
+import Main from "./main2/Main/Main";
+import Meet from "./main2/MeetTeam/Meet";
+import LatePosts from "./main2/LatestPosts/LatestPost";
 import './App.css';
 import Case from './components/main2/Case/Case';
 import Questions from './components/main2/Questions/Questions';
@@ -18,7 +24,6 @@ function App() {
       <Services/>
       <Case/>
       <Questions/>
-         </div>
       <Routes>
         <Route path="/" element={
           <HomePage/>

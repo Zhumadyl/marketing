@@ -1,0 +1,201 @@
+.Meet {
+  display: flex;
+  width: 100%;
+  height: 752px;
+  background-image: url(./images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Team {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  color: #535a62;
+  padding-top: 24px;
+  width: 70%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.left h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 160px;
+  margin-left: 144px;
+  height: 84px;
+}
+
+.leftbtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid rgba(250, 84, 28, 0.24);
+  background-color: #212b36;
+  cursor: pointer;
+}
+.rightbtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid rgba(250, 84, 28, 0.24);
+  background-color: #212b36;
+  cursor: pointer;
+}
+.Right {
+  display: flex;
+  padding-top: 160px;
+  width: 50%;
+  text-align: center;
+  margin-left: 122px;
+  grid-gap: 100px;
+  
+}
+.Flexing {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.ThreeImg,
+.SecondImg,
+.firstImg {
+  border-radius: 18px;
+  
+}
+
+.CardOne h1 {
+  padding-top: 20px;
+  width: 100%;
+  height: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.CardOne p {
+  padding-top: 13px;
+  color: #919eab;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+.CardTwo h1 {
+  padding-top: 20px;
+  width: 100%;
+  height: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.CardTwo p {
+  padding-top: 13px;
+  color: #919eab;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+.CardThree h1 {
+  padding-top: 20px;
+  width: 82%;
+  height: 28px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.CardThree p {
+  width: 86%;
+  padding-top: 13px;
+  color: #919eab;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+.info p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 24px;
+  width: 58%;
+}
+
+.text {
+  display: flex;
+}
+.ForCarosel, .ForCarosel2,.ForCarosel3 {
+  display: flex;
+  gap: 32px;
+}
+/* .CardThree{
+width: 270px;
+height: 360px;
+
+} */
+.customPrevButton {
+  right: 174%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid rgba(250, 84, 28, 0.24);
+  background-color: #212b36;
+  cursor: pointer;
+}
+
+.customNextButton {
+  right: 168%;
+  position: absolute;
+  width: 40px;
+  height: 39px;
+  border-radius: 50px;
+  border: 1px solid rgba(250, 84, 28, 0.24);
+  background-color: #212b36;
+  cursor: pointer;
+}
+.sliderButton {
+  position: absolute;
+  height: 10px;
+  top: 80%;
+  transform: translateY(-50%);
+
+  height: 39px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50px;
+  background-color: #212b36;
+  border: 1px solid rgba(250, 84, 28, 0.24);
+  cursor: pointer;
+}
+
+.ForCarosel{
+  margin-right: 100px;
+}

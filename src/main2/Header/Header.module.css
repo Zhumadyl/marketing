@@ -1,0 +1,53 @@
+.left {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  justify-content: space-between;
+}
+.left a {
+  text-decoration: none;
+  color: #637381;
+  font-family: "Poppins";
+}
+.Right a {
+  text-decoration: none;
+  color: #212b36;
+  font-family: "Poppins", sans-serif;
+}
+.Header_Centr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 17%;
+  font-family: "Poppins";
+}
+.btn {
+  background-color: #212b36;
+  color: #ffffff;
+  border-radius: 8px;
+  height: 36px;
+  width: 83px;
+  padding: Padding 6px, 16px, 6px, 16px;
+  cursor: pointer;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.Pages {
+  display: flex;
+  justify-content: center;
+}
+.Pages a {
+  color: #212b36;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Pages {
+  width: 20px;
+  align-items: center;
+}
