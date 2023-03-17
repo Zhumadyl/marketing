@@ -1,0 +1,124 @@
+.wrapper {
+    margin: 40px 0;
+}
+
+.wrapper b {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #919EAB;
+    text-transform: uppercase;
+}
+
+.wrapper h1 {
+    margin: 16px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #212B36;
+    line-height: 64px;
+}
+
+.wrapper p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 40%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.block1,
+.block2,
+.block3,
+.block4 {
+    align-items: flex-start;
+    padding: 16px;
+    gap: 24px;
+    width: 264px;
+    height: 150px;
+    background: #FDAB76;
+    box-shadow: -8px 12px 32px rgba(250, 84, 28, 0.2);
+    border-radius: 16px;
+}
+
+.block1>img,
+.block2>img,
+.block3>img,
+.block4>img {
+    margin-bottom: 30px;
+}
+
+.block1 div,
+.block2 div,
+.block3 div,
+.block4 div {
+    align-items: center;
+    text-align: end;
+    margin-left: 150px;
+}
+
+.block1 div p,
+.block4 div p,
+.block3 div p,
+.block2 div p {
+    width: 40px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #770508;
+}
+
+.block1 div img,
+.block2 div img,
+.block3 div img,
+.block4 div img {
+    margin-top: -30px;
+    margin-left: 20%;
+
+}
+
+.block1 {
+    margin-top: 80px;
+}
+.block1:hover{
+}
+
+.block2 {
+    margin-top: 60px;
+    background: #77F0ED;
+    box-shadow: -8px 12px 32px rgba(34, 184, 207, 0.2);
+    border-radius: 16px;
+}
+
+.block3 {
+    margin-top: 40px;
+    background: #FFE475;
+    box-shadow: -8px 12px 32px rgba(255, 200, 26, 0.2);
+    border-radius: 16px;
+}
+
+.block4 {
+    margin-top: 20px;
+    background: #69F290;
+    box-shadow: -8px 12px 32px rgba(12, 214, 110, 0.2);
+    border-radius: 16px;
+}
+
+.block3 div p {
+    width: 60px;
+    margin-left: -20px;
+    color: #7A5204;
+}
+
+.block4 div p {
+    margin-left: 40px;
+    color: #02665B;
+}
+.block2 div p{
+    color: #063963;
+}
