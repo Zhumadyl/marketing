@@ -1,0 +1,161 @@
+.container {
+    background-image: url(../../assets/bg.png);
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    height: 670px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.leftFoot a {
+    display: flex;
+    text-decoration: none;
+    grid-gap: 10px;
+    width: 330px;
+    margin-top: -10px;
+}
+
+.leftFoot h1 {
+    padding-top: 120px;
+    padding-bottom: 24px;
+    width: 380px;
+    height: 160px;
+    font-family: 'Barlow';
+    font-style: normal;
+    color: #FA541C;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.leftFoot a p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.rightFoot input {
+    border: none;
+    width: 90%;
+    height: 50px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+
+    color: #919EAB;
+
+}
+
+.rightFoot {
+    display: grid;
+    margin-top: 170px;
+    margin-left: 30%;
+    width: 50%;
+}
+
+.rightFoot button {
+    border: none;
+    color: white;
+    align-items: center;
+    padding: 11px 22px;
+    background: #FA541C;
+    border-radius: 8px;
+    width: 172px;
+    height: 48px;
+    margin-top: 30px;
+}
+
+
+.inputFoot {
+    width: 466px;
+    height: 56px;
+}
+
+.inputFoot input {
+    width: 350px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px 0px 0px 8px;
+    height: 100%;
+    padding-left: 12px;
+    border: none;
+}
+
+.inputFoot button {
+    border: none;
+    width: 102px;
+    height: 56px;
+    background: #FA541C;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.wrapper {
+    padding: 0 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9FAFB;
+    height: 208px;
+}
+
+.leftSocial {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftSocial  p {
+    width: 250px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+}
+.inputFoot2{
+    display: flex;
+    margin-left: auto;
+}
+.inputFoot2 button {
+    background-color: #FA541C;
+    width: 48px;
+    border: none;
+    margin-left: 8px;
+    height: 48px;
+}
+
+.inputFoot2 input {
+    border: none; 
+    width: 310px;
+    height: 48px;
+    background: rgba(145, 158, 171, 0.08);
+    border-radius: 8px;
+}
+.flexFoot{
+    display: flex;
+    align-items: center;
+    margin-top: 82px;
+}
+.contact div{
+    margin-bottom: -10px;
+}
+.contact{
+    margin-bottom: 20px;
+}
+.flexFinal{
+    display: flex;
+    justify-content: space-between;
+}
+.footWrapper{
+    margin-top: 125px;
+}
