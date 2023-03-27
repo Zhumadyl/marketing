@@ -99,12 +99,12 @@ color: #919EAB;
   height: 26px;
 }
 .customPrevButton {
-  left: 0%;
+  left: 5%;
   position: absolute;
 }
 
 .customNextButton {
-  right: 0%;
+  right: 5%;
 }
 .sliderButton {
   position: absolute;
@@ -118,4 +118,7 @@ color: #919EAB;
   outline: none;
   cursor: pointer;
   z-index: 2;
+}
+.MainLatePost > div{
+  width: 100%;
 }

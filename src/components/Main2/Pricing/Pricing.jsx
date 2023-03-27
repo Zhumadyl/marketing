@@ -31,12 +31,12 @@ function Pricing() {
                             <div className='flex'>
                                 <div className={css.cardHeader}>
                                     <h3 >Basic</h3>
-                                    <div className='flex'>
-                                        <h1>$29</h1>
-                                        <p>/mo</p>
-                                    </div>
                                 </div>
                                 <img src={plane} alt="" />
+                            </div>
+                            <div className='flex'>
+                                <h1>$29</h1>
+                                <p>/mo</p>
                             </div>
                             <p>Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien</p>
                             <div className={css.advantages}>
@@ -59,12 +59,12 @@ function Pricing() {
                             <div className='flex'>
                                 <div className={css.cardHeader}>
                                     <h3 >Standard</h3>
-                                    <div className='flex'>
-                                        <h1>$59</h1>
-                                        <p>/mo</p>
-                                    </div>
                                 </div>
                                 <img src={rocket} alt="" />
+                            </div>
+                            <div className='flex'>
+                                <h1>$59</h1>
+                                <p>/mo</p>
                             </div>
                             <p>Maecenas nec odio et ante tincidunt tempus.</p>
                             <div className={css.advantages}>
@@ -91,12 +91,12 @@ function Pricing() {
                             <div className='flex'>
                                 <div className={css.cardHeader}>
                                     <h3 >Premium</h3>
-                                    <div className='flex'>
-                                        <h1>$99</h1>
-                                        <p>/mo</p>
-                                    </div>
                                 </div>
                                 <img src={rocket2} alt="" />
+                            </div>
+                            <div className='flex'>
+                                <h1>$99</h1>
+                                <p>/mo</p>
                             </div>
                             <p>Sed lectus. Sed consequat, leo eget bibendum sodales</p>
                             <div className={css.advantages}>

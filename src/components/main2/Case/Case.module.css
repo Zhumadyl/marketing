@@ -1,3 +1,8 @@
+.wrapper {
+    margin-top: 160px;
+    padding-bottom: 120px;
+}
+
 .case {
     display: flex;
     flex-direction: row;
@@ -15,7 +20,7 @@
     border-radius: 16px;
 }
 
-.image{
+.image {
     display: flex;
     align-self: flex-start;
     border-radius: 16px;
@@ -88,3 +93,15 @@
     border-radius: 16px;
 }
 
+
+.wrapper>a {
+    text-decoration: none;
+    margin-left: 80%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FA541C;
+}
+.wrapper > div{
+    margin-bottom: 120px;
+}

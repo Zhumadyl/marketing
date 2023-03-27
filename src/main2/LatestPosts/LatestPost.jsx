@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
 import styles from "./LatestPost.module.css";
 import "react-alice-carousel/lib/alice-carousel.css";
 
 
 import AliceCarousel from 'react-alice-carousel';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import slidesToScroll from "react-slick";
 import ImgFirstAvatar from "./images/imga.svg";
 import ImgSecondAvatar from "./images/imgg.svg";
 import ImgThirdAvatar from "./images/img.svg";

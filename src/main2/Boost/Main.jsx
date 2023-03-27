@@ -1,4 +1,4 @@
-import Header from "../../main2/Header/Header";
+import Header from "../Header/Header";
 import styles from "./Main.module.css";
 import Free from "./images/Play.svg";
 import marketing from "./images/illustration_marketing.jpg";
@@ -6,7 +6,7 @@ import marketing from "./images/illustration_marketing.jpg";
 function Main() {
   return (
     <>
-      <Header />
+      <Header  />
       <div className="container">
         <div className={styles.Main}>
           <div className={styles.Left}>

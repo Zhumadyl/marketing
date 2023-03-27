@@ -1,38 +1,30 @@
 import styles from "./Meet.module.css";
-
+import 'react-alice-carousel/lib/alice-carousel.css';
 import FirstImg from "./images/Image Ratio.svg";
 import ThreeImg from "./images/IMG.svg";
 import SecondImg from "./images/IMGG.svg";
 import OverLeft from "./images/OVERLAY COLORLeft.svg";
 import OverRight from "./images/OVERLAY COLOR.svg";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import AliceCarousel from "react-alice-carousel";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import classNames from "classnames";
 
 
 function Meet() {
-  const stagePadding = {
-    paddingLeft: 100,
-    paddingRight: 100,
-}
+
   const prevButton = (
     <button className={classNames(styles.customPrevButton, styles.sliderButton)}>
-        <span classNames="visually-hidden">
-            <img src={OverLeft} alt="" width='15px'  />
-        </span>
+      <span className="visually-hidden">
+        <img src={OverLeft} alt="" width='15px' />
+      </span>
     </button>
-);
-const nextButton = (
+  );
+  const nextButton = (
     <button className={classNames(styles.customNextButton, styles.sliderButton)}>
-        <span classNames="visually-hidden">
-            <img src={OverRight} alt="" width='15px' />
-        </span>
+      <span className="visually-hidden">
+        <img src={OverRight} alt="" width='15px' />
+      </span>
     </button>
- 
-);
+  );
   //   dots: true,
   //   infinite: true,
   //   speed: 500,
@@ -51,7 +43,7 @@ const nextButton = (
             calculate, they are often used in cases
           </p>
         </div>
-   {/* `     <div className={styles.Btns}>
+        {/* `     <div className={styles.Btns}>
           <button className={styles.leftbtn}>
             <img src={OverLeft} alt="" />
           </button>
@@ -62,12 +54,11 @@ const nextButton = (
       </div>
 
       <div className={styles.Right}>
-        <AliceCarousel  buttonsDisabled={true} // Disable default buttons
-                        renderPrevButton={() => prevButton} // Render custom prev button
-                        renderNextButton={() => nextButton} // Render custom next button
-                        stagePadding={stagePadding}
-                        >
-                         
+        <AliceCarousel buttonsDisabled={true} // Disable default buttons
+          renderPrevButton={() => prevButton} // Render custom prev button
+          renderNextButton={() => nextButton} // Render custom next button
+        >
+
           <div className={styles.ForCarosel}>
             <div className={styles.CardOne}>
               <img src={FirstImg} alt="" />
@@ -85,8 +76,11 @@ const nextButton = (
               <h1>Marvin McKinney</h1>
               <p>Full Stack Developer</p>
             </div>
+            <div className={styles.CardEmp}>
+
+            </div>
           </div>
-           
+
           <div className={styles.ForCarosel2}>
             <div className={styles.CardOne}>
               <img src={FirstImg} alt="" />
@@ -105,8 +99,9 @@ const nextButton = (
               <p>Full Stack Developer</p>
             </div>
 
+
           </div>
-         
+
 
           <div className={styles.ForCarosel3}>
             <div className={styles.CardOne}>
@@ -126,8 +121,8 @@ const nextButton = (
               <p>Full Stack Developer</p>
             </div>
           </div>
-       
-         
+
+
           {/* <div className={styles.CardTwo}>
             <img className={styles.SecondImg} src={SecondImg} alt="" />
             <h1>Ralph Edwards</h1>

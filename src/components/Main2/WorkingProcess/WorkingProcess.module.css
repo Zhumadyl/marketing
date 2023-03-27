@@ -11,7 +11,7 @@
 }
 
 .wrapper h1 {
-    margin: 16px 0;
+    margin: 30px 0;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -48,7 +48,8 @@
 .block2>img,
 .block3>img,
 .block4>img {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    
 }
 
 .block1 div,
@@ -57,7 +58,7 @@
 .block4 div {
     align-items: center;
     text-align: end;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .block1 div p,
@@ -83,27 +84,27 @@
 }
 
 .block1 {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .block1:hover{
 }
 
 .block2 {
-    margin-top: 60px;
+    margin-bottom: -20px;
     background: #77F0ED;
     box-shadow: -8px 12px 32px rgba(34, 184, 207, 0.2);
     border-radius: 16px;
 }
 
 .block3 {
-    margin-top: 40px;
+    margin-bottom: 20px;
     background: #FFE475;
     box-shadow: -8px 12px 32px rgba(255, 200, 26, 0.2);
     border-radius: 16px;
 }
 
 .block4 {
-    margin-top: 20px;
+    margin-bottom: 60px;
     background: #69F290;
     box-shadow: -8px 12px 32px rgba(12, 214, 110, 0.2);
     border-radius: 16px;

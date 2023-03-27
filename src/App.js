@@ -1,16 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Header from "./main2/Header/Header";
-import Main from "./main2/Main/Main";
-import Meet from "./main2/MeetTeam/Meet";
-import LatePosts from "./main2/LatestPosts/LatestPost";
 import './App.css';
-import Case from './components/main2/Case/Case';
-import Questions from './components/main2/Questions/Questions';
-import Services from './components/main2/Services/Services';
+import Services from './components/Main2/Services/Services';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import Services from './pages/ServicesPage/Services';
+import Services1 from "./pages/ServicesPage/Services";
 import CaseStudies from './pages/CaseStudies-ListPage/CaseStudies';
 import CaseStudiesDetail from './pages/CaseStudies-DetailPage/CaseStudiesDetail';
 import Blog from './pages/BlogPage/Blog';
@@ -21,15 +14,12 @@ import About from './pages/AboutPage/About';
 function App() {
   return (
     <div className="App">
-      <Services/>
-      <Case/>
-      <Questions/>
       <Routes>
         <Route path="/" element={
           <HomePage/>
         } />
         <Route path="/services" element={
-          <Services/>
+          <Services1/>
         }/>
         <Route path="/casestudies" element={
           <CaseStudies/>

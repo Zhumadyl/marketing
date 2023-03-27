@@ -37,7 +37,7 @@ function Main() {
                         <p>PROJECTS</p>
                     </div>
                     <hr id={css.hr}/>
-                    <div>
+                    <div className={css.contentP}>
                         <p>
                         Praesent turpis. Praesent blandit laoreet nibh. Nunc nonummy metus.
                         </p>
@@ -49,7 +49,7 @@ function Main() {
                         <p>Happy CLIENTS</p>
                     </div>
                     <hr id={css.hr}/>
-                    <div>
+                    <div className={css.contentP}>
                         <p>
                         Praesent blandit laoreet nibh. Suspendisse pulvinar, augue ac venenatis condimentum.
                         </p>
@@ -61,8 +61,8 @@ function Main() {
                         <p>YEARS OF EXPERIENCE</p>
                     </div>
                     <hr id={css.hr}/>
-                    <div>
-                        <p>
+                    <div className={css.contentP}>
+                        <p >
                         Praesent blandit laoreet nibh. Suspendisse pulvinar, augue ac venenatis condimentum.
                         </p>
                     </div>
