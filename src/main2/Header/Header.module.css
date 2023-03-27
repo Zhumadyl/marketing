@@ -7,12 +7,13 @@
 .left a {
   text-decoration: none;
   color: #637381;
-  font-family: "Poppins";
 }
 .Right a {
   text-decoration: none;
   color: #212b36;
   font-family: "Poppins", sans-serif;
+  margin: 0 20px;
+  margin-right: 15px;
 }
 .Header_Centr {
   display: flex;
@@ -23,19 +24,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 17%;
-  font-family: "Poppins";
+  width: 25%;
 }
 .btn {
   background-color: #212b36;
   color: #ffffff;
+  border: none;
   border-radius: 8px;
   height: 36px;
-  width: 83px;
+  width: 90px;
   padding: Padding 6px, 16px, 6px, 16px;
   cursor: pointer;
-
-  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .Pages {
@@ -50,4 +50,9 @@
 .Pages {
   width: 20px;
   align-items: center;
+}
+.Right  img{
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
 }

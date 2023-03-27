@@ -15,7 +15,9 @@ function Footer() {
         <div className='container'>
           <div className={css.container2}>
             <div className={css.leftFoot}>
-              <h1> Get Free SEO Analysis</h1>
+              <h1> Get Free 
+                <hr />
+                SEO Analysis</h1>
               <a href="">
                 <img src={mail} alt="" />
                 <p>Hello@agency.com</p>

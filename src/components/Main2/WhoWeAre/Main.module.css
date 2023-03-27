@@ -8,43 +8,73 @@
 }
 
 .rightAU {
+    margin-left: 5%;
     width: 50%;
 }
 
+.rightAU>div {
+    margin-bottom: 40px;
+}
+
 .rightAU p {
+    margin-top: 8px;
     width: 399px;
     margin-left: 5%;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.contentP p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .leftAU {
-    width: calc(50% - 100px);
+    width: calc(45%);
     text-align: end;
     padding-right: 100px;
 }
 
+.leftAU b {
+    color: #919EAB;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .leftAU p {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-left: auto;
     margin-bottom: 50px;
+    color: #919EAB;
 }
-.leftAU button{
+
+.leftAU button {
     border: none;
     background-color: white;
     color: #FA541C;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
 }
+
 .leftAU h1 {
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
+    margin: 20px 0;
 }
 
 .flex {
     display: flex;
     align-items: center;
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
 }
 
 .static {

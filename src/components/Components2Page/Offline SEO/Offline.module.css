@@ -1,6 +1,6 @@
 .wrapper {
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 130px;
 }
 
 .wrapper>div {
@@ -12,10 +12,11 @@
 
 .content {
     width: 450px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
 }
 
 .content h1 {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
@@ -37,15 +38,23 @@
     margin-top: 10px;
 }
 
+.content>div>b {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #212B36;
+
+}
+
 #lastDiv {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .content>button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding: 11px 22px;
     background-color: white;
     font-weight: 600;

@@ -26,7 +26,7 @@ function Testimonials() {
         </button>
     );
 
-    
+
 
     return (
         <div className={css.wrapper}>

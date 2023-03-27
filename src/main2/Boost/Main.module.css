@@ -3,6 +3,7 @@
   justify-content: space-between;
   margin-top: 140px;
   height: 100%;
+  margin-bottom: 211px;
 }
 
 .Left {
@@ -12,6 +13,7 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
 .digital {
   color: #fa541c;
 }
@@ -22,6 +24,7 @@
   color: #212b36;
   font-family: "Barlow", sans-serif;
 }
+
 .btn {
   width: 132px;
   height: 48px;
@@ -29,9 +32,11 @@
   background-color: #fa541c;
   color: #ffff;
   border: none;
-  padding: 11px 22px;
-  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
 }
+
 .info {
   font-family: "Poppins", sans-serif;
   padding: 40px 0px 40px 0px;
@@ -40,19 +45,25 @@
   line-height: 28px;
   width: 81%;
 }
+
 .bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 70%;
   margin-top: 40px;
+  grid-gap: 20px;
 }
+
 .free {
+  grid-gap: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .free a {
+  width: 100px;
   font-weight: 600;
   font-size: 15px;
   line-height: 26px;

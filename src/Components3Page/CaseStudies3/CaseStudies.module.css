@@ -1,0 +1,44 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+.wrapper>h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+.wrapper>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #637381;
+    width: 368px;
+    margin-bottom: 50px;
+}
+
+
+
+.customDotButton {  
+    border-radius: 50%;
+    cursor: pointer;
+    height: 40px;
+    margin: 0 5px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.customDotButton.active {
+    background: rgba(250, 84, 28, 0.08);
+    color: #FA541C;
+}
+
+
+.wrapper{
+    padding-bottom: 140px;
+}
