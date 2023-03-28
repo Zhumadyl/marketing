@@ -1,0 +1,182 @@
+
+
+.Result {
+  display: flex;
+  height: 130vh;
+  width: 100%;
+}
+.Brief {
+  margin-left: 77px;
+}
+.Brief p {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+  width: 625px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.Brief h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212b36;
+}
+.HowWeWork {
+  margin-left: 77px;
+  margin-top: 40px;
+  gap: 16px;
+}
+.HowWeWork h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212b36;
+}
+.HowWeWork p {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+  width: 608px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.Res {
+  margin-left: 77px;
+  margin-top: 40px;
+  gap: 16px;
+}
+.Res p {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #212b36;
+  width: 608px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.Res h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212b36;
+}
+.list {
+  padding-left: 5px;
+}
+.Gallery {
+  margin-left: 77px;
+  margin-top: 40px;
+  gap: 16px;
+}
+.Gallery h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #212b36;
+}
+.images {
+  display: flex;
+  margin-top: 40px;
+  gap: 32px;
+  border-radius: 10px;
+}
+.Img1,
+.Img2,
+.Img3 {
+  width: 99%;
+  border-radius: 8px;
+
+}
+.Right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 24px;
+  width: 342px;
+  height: 435px;
+  background-color: #f9fafb;
+  margin-left: 398px;
+  border-radius: 8px;
+}
+.Right a {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #919eab;
+}
+.Right p {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #212b36;
+}
+.Right h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #212b36;
+}
+hr {
+  width: 262px;
+}
+.WebSites {
+  display: flex;
+  gap: 21px;
+}
+.customPrevButton {
+  right: 25px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.customNextButton {
+  left: 95%;
+  position: absolute;
+  width: 40px;
+  height: 39px;
+  background: transparent;
+  cursor: pointer;
+}
+.sliderButton {
+  position: absolute;
+  height: 10px;
+  bottom: 90%;
+  transform: translateY(-50%);
+  height: 39px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50px;
+  cursor: pointer;
+}
+ul {
+  list-style: inside;
+}
+.alice-carousel__dots > li{
+  display: none;
+}

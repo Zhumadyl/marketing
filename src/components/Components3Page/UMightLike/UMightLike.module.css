@@ -1,0 +1,63 @@
+.MightLike {
+  width: 1440px;
+  height: 812px;
+}
+
+.CardOne,
+.CardTwo,
+.CardThird {
+  display: flex;
+  flex-direction: column;
+}
+.CardOneImg {
+  border-radius: 8px;
+  width: 425px;
+  height: 425px;
+}
+.ForFlex a {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #919eab;
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+}
+.ForFlex h3 {
+  padding-top: 8px;
+  padding-left: 20px;
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #212b36;
+  width: 81%;
+}
+.ForFlex {
+  width: 99%;
+  display: flex;
+  padding-top: 48px;
+  gap: 32px;
+}
+.right a {
+  color: #fa541c;
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+.right {
+  display: flex;
+  margin-left: 93%;
+  gap: 11px;
+}
+.top {
+  margin-top: 120px;
+}
+.top h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #212b36;
+}

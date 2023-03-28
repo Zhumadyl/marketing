@@ -6,13 +6,12 @@ import Footer from '../../components/Footer/Footer'
 import Testimonials from '../../components/Main2/Testimonials/Testimonials'
 import Header from '../../Main2/Header/Header'
 import LatePosts from '../../Main2/LatestPosts/LatestPost'
-
+import MainSeo from '../../components/Components2Page/MainSeo/MainSeo'
 function Services() {
   return (
     <div>
         <div>
-          <Header/>
-          {/* <Maks /> */}
+          <MainSeo/>
           <OfflineSEO/>
           <ServicesIncl/>
           <Benefits/>

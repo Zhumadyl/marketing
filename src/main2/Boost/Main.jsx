@@ -19,7 +19,9 @@ function Main() {
               </p>
             </div>
             <div className={styles.bottom}>
-              <button className={styles.btn}>Try For Free</button>
+              <button className={styles.btn}>
+                <a href="/contact" className={styles.btnn}>Try For Free</a>
+              </button>
               <div className={styles.free}>
                 <img src={Free} alt="" />
                 <a>See our Work</a>

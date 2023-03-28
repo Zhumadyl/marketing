@@ -1,0 +1,35 @@
+.wrp{
+    
+}
+
+
+.wrp img {
+    border-radius: 20px;
+}
+
+.wrp>div {
+    width: 92%;
+}
+
+.content p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content b {
+    margin-left: 14px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #212B36;
+}
+.content p{
+    margin-left: 15px;
+}
+.content{
+    margin-bottom: 30px;
+}
+
