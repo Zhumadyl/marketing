@@ -206,3 +206,60 @@ height: 360px;
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .sliderButton {
+    display: none;
+  }
+
+  .Meet {
+    padding-top: 80px;
+    display: block;
+    height: 1100px;
+  }
+
+  .left {
+    width: 100%;
+    margin: 0;
+  }
+
+  .Right {
+    
+    width: 100%;
+    margin: 0;
+  }
+  .CardTwo , .CardThree{
+    display: none;
+ 
+  }
+  .CardOne img{
+    margin-top: 64px;
+    width: 90%;
+  }
+  .ForCarosel{
+    display: block;
+  }
+
+  #n2{
+    width: 140%;
+    margin-left: 7%;
+  }
+  #n3{
+    width: 140%;
+    margin-left: 7%;
+  }
+  .CardOne h1{
+    text-align: center;
+  }
+  #n2 + h1 , #n3 + h1 {
+    margin-left: 28%;
+  }
+  .CardOne p{
+    margin-left: 55%;
+  }
+  #p1{
+    margin: 0;
+  }
+
+  
+
+}

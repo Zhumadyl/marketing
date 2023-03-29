@@ -58,7 +58,7 @@ function Case() {
                     </div>
                 </div>
             </div>
-            <a href="">View All</a>
+            <a href="/caseStudies">View All</a>
         </div>
     )
 }

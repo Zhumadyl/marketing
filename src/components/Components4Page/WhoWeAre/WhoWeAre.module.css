@@ -1,0 +1,58 @@
+.Main {
+  height: 1102px;
+}
+.left {
+  padding-top: 150px;
+  padding-left: 57px;
+}
+.MainImg {
+  width: 466px;
+  height: 466px;
+}
+.Main p {
+  padding-top: 24px;
+  width: 90%;
+}
+.right {
+  padding-top: 196px;
+  padding-left: 280px;
+}
+.btn {
+  text-align: center;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 198px;
+  height: 48px;
+  border: 1px solid rgba(145, 158, 171, 0.32);
+  border-radius: 8px;
+  background: transparent;
+}
+.cursor {
+  padding-left: 8px;
+}
+.BottomCards {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 134px;
+  
+  gap:195px;
+}
+.BottomCards p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #637381;
+  width: 99%;
+  padding-top: 16px;
+  padding-bottom: 8px;
+
+}
+.BottomCards h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #212B36;
+}

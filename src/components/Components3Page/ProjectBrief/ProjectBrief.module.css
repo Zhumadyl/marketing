@@ -1,0 +1,39 @@
+.main {
+  height: 128vh;
+}
+
+.img {
+  width: 100%;
+  height: 648px;
+  padding-top: 80px;
+}
+.MainImg {
+  background-image: url(./images/IMG.svg);
+  width: 1152px;
+  height: 648px;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: 77px;
+}
+.under {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.under p {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #212b36;
+}
+.under a {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #919eab;
+}

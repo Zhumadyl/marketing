@@ -1,4 +1,3 @@
-
 .weProvide {
     display: flex;
     flex-direction: column;
@@ -17,6 +16,7 @@
 }
 
 .prov {
+    font-family: 'Barlow', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -27,7 +27,7 @@
 }
 
 .p {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -55,10 +55,15 @@
     align-items: center;
     height: 376px;
 }
-.zero , .first , .second , .thirst{
+
+.zero,
+.first,
+.second,
+.thirst {
     width: 264px;
     /* height: 424px; */
 }
+
 /* .zero:hover , .first:hover , .second:hover , .thirst:hover{
     height: 484px;
 } */
@@ -116,6 +121,43 @@
     margin-top: 8px;
     margin-bottom: 0px;
 }
-.wrapper{
+
+.wrapper {
     margin: 120px 0;
+}
+
+@media (max-width: 768px) {
+    p {
+        margin: 0 auto;
+    }
+
+    b {
+        margin: 0 auto;
+    }
+
+    h1 {
+        margin: 0 auto;
+    }
+
+    .prov {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 0px;
+    }
+    .p{
+        margin-bottom: 50px;
+       width: 90%; 
+    }
+    .weProvide br{
+        display: none;
+    }
+    .services{
+        display: block;
+    }
+    .services > div{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
 }

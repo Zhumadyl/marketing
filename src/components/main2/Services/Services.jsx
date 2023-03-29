@@ -13,9 +13,9 @@ function Services() {
             <div className='container'>
                 <div className='Services'>
                     <div className={css.weProvide}>
-                        <p className='serv'>Our Services</p>
-                        <h1 className='prov'>We Provide</h1>
-                        <p className='p'>Nunc nonummy metus. Donec elit libero, sodales nec, <br /> volutpat a, suscipit non, turpis.</p>
+                        <p className={css.serv}>Our Services</p>
+                        <h1 className={css.prov}>We Provide</h1>
+                        <p className={css.p}>Nunc nonummy metus. Donec elit libero, sodales nec, <br /> volutpat a, suscipit non, turpis.</p>
                     </div>
 
                     <div className={css.services}>

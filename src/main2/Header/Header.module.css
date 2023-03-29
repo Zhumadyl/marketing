@@ -4,55 +4,97 @@
   width: 45%;
   justify-content: space-between;
 }
+
 .left a {
   text-decoration: none;
   color: #637381;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
 }
+
 .Right a {
   text-decoration: none;
   color: #212b36;
   font-family: "Poppins", sans-serif;
-  margin: 0 20px;
-  margin-right: 15px;
+  font-weight: 500;
+  font-size: 14px;
 }
+
 .Header_Centr {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .Right {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 25%;
+  width: 22%;
+  font-family: "Poppins", sans-serif;
 }
+
 .btn {
   background-color: #212b36;
   color: #ffffff;
-  border: none;
   border-radius: 8px;
   height: 36px;
-  width: 90px;
-  padding: Padding 6px, 16px, 6px, 16px;
+  width: 83px;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border: none;
   font-weight: 600;
+  font-size: 14px;
 }
 
 .Pages {
   display: flex;
   justify-content: center;
 }
+
 .Pages a {
   color: #212b36;
   padding-left: 5px;
   padding-right: 5px;
 }
+
 .Pages {
   width: 20px;
   align-items: center;
 }
-.Right  img{
+
+.Right {
+  grid-gap: 20px;
+}
+
+.Right img:first-child {
   margin-right: 10px;
-  margin-left: 10px;
-  cursor: pointer;
+}
+
+#burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Header a:not(.logo > a) {  
+    display: none;
+
+  }
+
+  #burger {
+    display: block;
+    position: relative;
+    left: 5px;
+  }
+  #search{
+    display: block;
+  }
+  .Right img , .Right a , .Right button{
+    display: none;
+  }
+
+  .Pages img {
+    display: none;
+  }
 }

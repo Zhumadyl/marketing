@@ -43,14 +43,7 @@ function Meet() {
             calculate, they are often used in cases
           </p>
         </div>
-        {/* `     <div className={styles.Btns}>
-          <button className={styles.leftbtn}>
-            <img src={OverLeft} alt="" />
-          </button>
-          <button className={styles.rightbtn}>
-            <img src={OverRight} alt="" />
-          </button>
-        </div>` */}
+        
       </div>
 
       <div className={styles.Right}>
@@ -61,9 +54,9 @@ function Meet() {
 
           <div className={styles.ForCarosel}>
             <div className={styles.CardOne}>
-              <img src={FirstImg} alt="" />
+              <img src={FirstImg} alt="" id={styles.n1}/>
               <h1>Eleanor Pena</h1>
-              <p>UI Designer</p>
+              <p id={styles.p1}>UI Designer</p>
             </div>
             <div className={styles.CardTwo}>
               <img className={styles.SecondImg} src={SecondImg} alt="" />
@@ -83,7 +76,7 @@ function Meet() {
 
           <div className={styles.ForCarosel2}>
             <div className={styles.CardOne}>
-              <img src={FirstImg} alt="" />
+              <img src={FirstImg} alt="" id={styles.n2}/>
               <h1>Eleanor Pena</h1>
               <p>UI Designer</p>
             </div>
@@ -105,7 +98,7 @@ function Meet() {
 
           <div className={styles.ForCarosel3}>
             <div className={styles.CardOne}>
-              <img src={FirstImg} alt="" />
+              <img src={FirstImg} alt="" id={styles.n3} />
               <h1>Eleanor Pena</h1>
               <p>UI Designer</p>
             </div>
@@ -123,20 +116,6 @@ function Meet() {
           </div>
 
 
-          {/* <div className={styles.CardTwo}>
-            <img className={styles.SecondImg} src={SecondImg} alt="" />
-            <h1>Ralph Edwards</h1>
-            <p>Project Manager</p>
-          </div>
-          <div className={styles.CardThree}>
-            <img className={styles.ThreeImg} src={ThreeImg} alt="" />
-           
-            <h1>Marvin McKinney</h1>
-            <p>Full Stack Developer</p>
-           
-           
-          </div>    
-                             */}
         </AliceCarousel>
       </div>
     </div>

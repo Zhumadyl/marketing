@@ -10,7 +10,7 @@ function Main() {
       <div className="container">
         <div className={styles.Main}>
           <div className={styles.Left}>
-            <p className={styles.digital}>Digital Marketing</p>
+            <p className={styles.digital}>DIGITAL MARKETING</p>
             <h1>Boosts Your Website Traffic</h1>
             <div className={styles.info}>
               <p className={styles.info1}>
@@ -19,7 +19,9 @@ function Main() {
               </p>
             </div>
             <div className={styles.bottom}>
-              <button className={styles.btn}>Try For Free</button>
+              <button className={styles.btn}>
+                <a href="/contact" className={styles.btnn}>Try For Free</a>
+              </button>
               <div className={styles.free}>
                 <img src={Free} alt="" />
                 <a>See our Work</a>

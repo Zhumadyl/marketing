@@ -49,7 +49,7 @@
 .block3>img,
 .block4>img {
     margin-bottom: 0px;
-    
+
 }
 
 .block1 div,
@@ -86,8 +86,7 @@
 .block1 {
     margin-top: 60px;
 }
-.block1:hover{
-}
+
 
 .block2 {
     margin-bottom: -20px;
@@ -120,6 +119,38 @@
     margin-left: 40px;
     color: #02665B;
 }
-.block2 div p{
+
+.block2 div p {
     color: #063963;
+}
+
+@media (max-width: 768px) {
+    .wrapper h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-family: 'Barlow' , sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        width: 100%;
+    }
+    .wrapper p{
+        width: 100%;
+        font-family: 'Popins' , sans-serif;
+    }
+    .block1 , .block2 , .block3 , .block4{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .block1 img ,  .block2 img ,  .block3 img ,  .block4 img{
+        margin-left: -200px;
+    }
+    .block1 > div , .block2 > div , .block3 > div  {
+        display: flex;
+        grid-gap: 0px;
+    }
+
+    
+
 }

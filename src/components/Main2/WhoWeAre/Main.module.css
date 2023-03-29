@@ -95,3 +95,72 @@
     height: 92px;
     margin: 0 30px;
 }
+
+@media (max-width: 768px) {
+    .brands img {
+        display: none;
+    }
+
+    #spot,
+    #slack {
+        display: block;
+    }
+
+    .brands {
+        margin: 0 -50px;
+    }
+
+    .aboutUs {
+        display: block;
+    }
+
+    .leftAU {
+        width: 100%;
+    }
+
+    .leftAU b {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        margin-right: 10%;
+    }
+
+    .leftAU h1 {
+        width: 150%;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        margin-right: 5%;
+    }
+
+    .leftAU p {
+        width: 140%;
+    }
+
+    .leftAU button {
+        font-weight: 600;
+        font-size: 15px;
+        margin-right: 10%;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+    .flex{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100px 40px 350px;
+    }
+    .contentP p{
+        width: 50%;
+    }
+    #hr{
+        display: block;
+    }
+    .static img{
+        margin-left: -50px;
+    }
+    .static p{
+        text-align: start;
+        margin-left: -10px;
+    }
+
+}

@@ -35,6 +35,7 @@ function Testimonials() {
                 <h1>Who Love Our Work</h1>
                 <div className={css.main} id='myCarousel'>
                     <AliceCarousel
+                    
                         buttonsDisabled={true} // Disable default buttons
                         renderPrevButton={() => prevButton} // Render custom prev button
                         renderNextButton={() => nextButton} // Render custom next button
