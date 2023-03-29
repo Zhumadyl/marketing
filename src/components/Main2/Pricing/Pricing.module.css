@@ -182,5 +182,54 @@
 .wrapper>div h1 {
     margin-right: -15px;
     margin-bottom: 20px;
-    
+
+}
+
+@media (max-width: 768px) {
+    .flex {
+        display: block;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .flex>div {
+        display: flex;
+        width: 75%;
+        margin: 40px auto;
+    }
+
+    .card,
+    .card1,
+    .card2 {
+        width: 100%;
+    }
+
+    .card>div>div {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card div div h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        margin-right: -30px;
+    }
+
+    .card div div p {
+        margin-right: 200px;
+    }
+
+    .card>div>p {
+        text-align: start;
+        width: 100%;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+    .card > div > button{
+        width: 90%;
+    }
 }

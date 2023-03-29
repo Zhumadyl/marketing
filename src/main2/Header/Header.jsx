@@ -5,6 +5,7 @@ import Glob from "./images/IconButton.svg";
 import layer from "./images/layer.svg";
 import "../../global/global.css";
 import Ellipse from "./images/Ellipse.svg";
+import burger from '../../assets/iconbase.png'
 import Vector from "./images/Vector.svg";
 function Header() {
   return (
@@ -28,7 +29,8 @@ function Header() {
             <a href="">Documentation</a>
           </div>
           <div className={styles.Right}>
-            <img src={Search} alt="" />
+            <img src={burger} alt=""  id={styles.burger}/>
+            <img src={Search} alt="" id={styles.search} />
             <img src={Glob} alt="" />
             <img src={layer} alt="" />
             <a href="">Login</a>

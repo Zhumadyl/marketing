@@ -10,7 +10,7 @@ function Main() {
       <div className="container">
         <div className={styles.Main}>
           <div className={styles.Left}>
-            <p className={styles.digital}>Digital Marketing</p>
+            <p className={styles.digital}>DIGITAL MARKETING</p>
             <h1>Boosts Your Website Traffic</h1>
             <div className={styles.info}>
               <p className={styles.info1}>

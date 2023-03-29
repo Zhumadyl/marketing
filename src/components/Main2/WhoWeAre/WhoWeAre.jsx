@@ -13,8 +13,8 @@ function Main() {
   return (
     <div className='container'>
         <div className={css.brands}>
-            <img src={spotify} alt="" width='85px' height='25px'/>
-            <img src={slack} alt="kk"  width='85px' height='25px' />
+            <img src={spotify} alt="" width='85px' height='25px' id={css.spot}/>
+            <img src={slack} alt="kk"  width='85px' height='25px' id={css.slack}/>
             <img src={netflix} alt="kk" width='85px' height='25px' />
             <img src={vimeo} alt="kk"  width='85px' height='25px'/>
             <img src={heroku} alt="kk"  width='85px' height='25px' />
@@ -36,7 +36,7 @@ function Main() {
                         <img src={number1} alt="" width='83px' height='64px' />
                         <p>PROJECTS</p>
                     </div>
-                    <hr id={css.hr}/>
+                    <div id={css.hr}></div>
                     <div className={css.contentP}>
                         <p>
                         Praesent turpis. Praesent blandit laoreet nibh. Nunc nonummy metus.
@@ -48,7 +48,7 @@ function Main() {
                         <img src={number1} alt="" width='83px' height='64px' />
                         <p>Happy CLIENTS</p>
                     </div>
-                    <hr id={css.hr}/>
+                    <div id={css.hr}></div>
                     <div className={css.contentP}>
                         <p>
                         Praesent blandit laoreet nibh. Suspendisse pulvinar, augue ac venenatis condimentum.
@@ -60,7 +60,7 @@ function Main() {
                         <img src={number1} alt="" width='83px' height='64px'/>
                         <p>YEARS OF EXPERIENCE</p>
                     </div>
-                    <hr id={css.hr}/>
+                    <div id={css.hr}></div>
                     <div className={css.contentP}>
                         <p >
                         Praesent blandit laoreet nibh. Suspendisse pulvinar, augue ac venenatis condimentum.

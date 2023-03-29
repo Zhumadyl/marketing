@@ -15,6 +15,11 @@
 }
 
 .digital {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
   color: #fa541c;
 }
 
@@ -67,10 +72,43 @@
   font-family: "Poppins", sans-serif;
   color: #212b36;
 }
-.btnn{
+
+.btnn {
   text-decoration: none;
   color: white;
   font-weight: 600;
   font-size: 15px;
   line-height: 26px;
+}
+
+@media (max-width: 768px) {
+  .Right img {
+    display: none;
+  }
+
+  .Left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Left h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .info {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 0px;
+  }
+  .bottom {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+
+  .Main{
+    margin-bottom: 120px;
+  }
+  
 }
