@@ -33,6 +33,7 @@
     font-size: 16px;
     line-height: 28px;
     color: #637381;
+    margin-bottom: 30px;
 }
 
 .services {
@@ -62,6 +63,14 @@
 .thirst {
     width: 264px;
     /* height: 424px; */
+}
+
+.zeroD,
+.firstD,
+.thirstD,
+.secondD {
+    background: #212B36;
+    box-shadow: -24px 24px 72px -8px rgba(0, 0, 0, 0.24);
 }
 
 /* .zero:hover , .first:hover , .second:hover , .thirst:hover{
@@ -103,6 +112,10 @@
 
 }
 
+.services>a {
+    text-decoration: none;
+}
+
 .h1 {
     font-weight: 600;
     font-size: 18px;
@@ -127,6 +140,10 @@
 }
 
 @media (max-width: 768px) {
+    .zero, .first ,.second , .thirst{
+        width: 100%;
+        margin-top: 32px;
+    }
     p {
         margin: 0 auto;
     }
@@ -138,6 +155,9 @@
     h1 {
         margin: 0 auto;
     }
+    .zero{
+        margin-right: 0;
+    }
 
     .prov {
         font-weight: 700;
@@ -145,17 +165,21 @@
         line-height: 42px;
         margin-top: 0px;
     }
-    .p{
+
+    .p {
         margin-bottom: 50px;
-       width: 90%; 
+        width: 90%;
     }
-    .weProvide br{
+
+    .weProvide br {
         display: none;
     }
-    .services{
+
+    .services {
         display: block;
     }
-    .services > div{
+
+    .services>div {
         width: 100%;
         margin-bottom: 32px;
     }

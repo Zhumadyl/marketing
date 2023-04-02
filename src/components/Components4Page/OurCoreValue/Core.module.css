@@ -1,10 +1,11 @@
 .OurCore {
   width: 1440px;
-  height: 590px;
+  height: 520px;
   align-items: center;
 }
+
 .OurCore h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -13,32 +14,37 @@
   padding-top: 60px;
 
 }
-.Cards img{
-    margin-right: 80px;
+
+.Cards img {
+  margin-right: 70px;
 }
+
 .Cards {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  margin-left: 70px;
+  margin-left: 50px;
   flex-direction: row;
   align-items: center;
   padding-top: 80px;
 }
+
 .Cards p {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #637381;
   padding-top: 16px;
-  width: 71%;
- 
+  width: 61%;
+  margin-left: 10%;
+
 }
+
 .Cards h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -47,6 +53,43 @@
   padding-top: 40px;
   width: 80%;
 }
-.left{
-    margin-right: 10px;
+
+.left {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .OurCore {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: -100px;
+  }
+
+  .OurCore h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .Cards {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .Cards img {
+    margin: 0;
+  }
+
+  .Cards h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .Cards p{
+    width: 90%;
+    margin-bottom: 64px;
+  }
+
+
 }

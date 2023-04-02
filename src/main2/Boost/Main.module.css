@@ -6,6 +6,7 @@
   margin-bottom: 211px;
 }
 
+
 .Left {
   width: 35%;
   height: 90%;
@@ -26,7 +27,6 @@
 .Left h1 {
   font-size: 60px;
   margin-top: 21px;
-  color: #212b36;
   font-family: "Barlow", sans-serif;
 }
 
@@ -37,6 +37,12 @@
   background-color: #fa541c;
   color: #ffff;
   border: none;
+}
+.btn:hover{
+  background-color: black;
+}
+.free img{
+  cursor: pointer;
 }
 
 .info {
@@ -70,8 +76,8 @@
   font-size: 15px;
   line-height: 26px;
   font-family: "Poppins", sans-serif;
-  color: #212b36;
 }
+
 
 .btnn {
   text-decoration: none;
@@ -82,7 +88,7 @@
 }
 
 @media (max-width: 768px) {
-  .Right img {
+  .Right  {
     display: none;
   }
 

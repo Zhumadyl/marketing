@@ -7,6 +7,7 @@ import Testimonials from '../../components/Main2/Testimonials/Testimonials'
 import Header from '../../Main2/Header/Header'
 import LatePosts from '../../Main2/LatestPosts/LatestPost'
 import MainSeo from '../../components/Components2Page/MainSeo/MainSeo'
+import HowWorks from '../../components/Components2Page/HowItWorks/HowWorks'
 function Services() {
   return (
     <div>
@@ -15,7 +16,7 @@ function Services() {
           <OfflineSEO/>
           <ServicesIncl/>
           <Benefits/>
-          {/* <Keremet/> */}
+          <HowWorks/>
           <Testimonials/>
           <LatePosts/>
         </div>

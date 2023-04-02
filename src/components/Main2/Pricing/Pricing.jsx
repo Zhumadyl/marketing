@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import css from './Pricing.module.css'
 import plane from '../../../assets/plane.svg'
 import rocket from '../../../assets/rocket1.svg'
 import rocket2 from '../../../assets/rocket2.svg'
 import checkIcon from '../../../assets/checkIcon.svg'
+import theme from "../../../global/theme";
+
 
 function Pricing() {
+    const [isDarkMode, setIsDarkMode] = useState(theme.isDarkMode);
     return (
-        <div className={css.wrapper}>
-            <div className='container'>
+        <div className={`${css.wrapper} ${isDarkMode ? 'dark' : css.wrapper}`}>
+            <div className={`${'container'} ${isDarkMode ? 'dark' : 'container'}`}>
                 <p>Pricing</p>
                 <h1>Check Our Pricing</h1>
                 <div className={css.flex}>
@@ -24,10 +27,10 @@ function Pricing() {
                     </div>
                 </div>
             </div>
-            <div className='container'>
+            <div className={`${'container'} ${isDarkMode ? 'dark' : 'container'}`}>
                 <div className='flex' >
-                    <div className={css.card} >
-                        <div className='container'>
+                    <div className={css.card} style={{backgroundColor: isDarkMode ? '#212B36' : 'white'}} >
+                        <div className='container' style={{backgroundColor: isDarkMode ? '#212B36' : 'white'}}>
                             <div className='flex'>
                                 <div className={css.cardHeader}>
                                     <h3 >Basic</h3>
@@ -51,11 +54,13 @@ function Pricing() {
                                 <img src={checkIcon} alt="" />
                                 <b>International posting</b>
                             </div>
-                            <button>Get Started</button>
+                            <a href="/contact" id={css.id}>
+                                <button>Get Started</button>
+                            </a>
                         </div>
                     </div>
-                    <div className={css.card1} >
-                        <div className='container'>
+                    <div className={css.card1} style={{backgroundColor: isDarkMode ? '#212B36' : 'white'}} >
+                        <div className='container' style={{backgroundColor: isDarkMode ? '#212B36' : 'white'}}>
                             <div className='flex'>
                                 <div className={css.cardHeader}>
                                     <h3 >Standard</h3>
@@ -83,11 +88,13 @@ function Pricing() {
                                 <img src={checkIcon} alt="" />
                                 <b>Unique newsletters</b>
                             </div>
-                            <button>Get Started</button>
+                            <a href="/contact" id={css.id}>
+                                <button>Get Started</button>
+                            </a>
                         </div>
                     </div>
-                    <div className={css.card2} >
-                        <div className='container'>
+                    <div className={css.card2} style={{backgroundColor: isDarkMode ? '#212B36' : 'white'}}>
+                        <div className='container' style={{backgroundColor: isDarkMode ? '#212B36' : 'white'}}>
                             <div className='flex'>
                                 <div className={css.cardHeader}>
                                     <h3 >Premium</h3>
@@ -119,7 +126,9 @@ function Pricing() {
                                 <img src={checkIcon} alt="" />
                                 <b>International posting</b>
                             </div>
-                            <button>Get Started</button>
+                            <a href="/contact" id={css.id}>
+                                <button>Get Started</button>
+                            </a>
                         </div>
                     </div>
                 </div>

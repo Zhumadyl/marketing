@@ -4,13 +4,26 @@
   width: 45%;
   justify-content: space-between;
 }
-
+.Header > div{
+  padding-top: 0px;
+}
 .left a {
   text-decoration: none;
   color: #637381;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
+}
+
+.Header_Centr a:hover {
+  font-weight: 600;
+  color: black;
+}
+.Header_Centr img:hover{
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #FA541C;
 }
 
 .Right a {
@@ -76,10 +89,28 @@
   display: none;
 }
 
+.Header{
+  padding-top: 20px;
+}
+
+
+.Header_dark a{
+  color: #919EAB;
+}
+.Header_dark a:hover{
+  color: white;
+}
+.Header_dark .btn{
+  background-color: white;
+  color: black;
+}
 @media (max-width: 768px) {
   .Header a:not(.logo > a) {  
     display: none;
 
+  }
+  #search1{
+    display: none;
   }
 
   #burger {
@@ -97,4 +128,5 @@
   .Pages img {
     display: none;
   }
+  
 }

@@ -10,35 +10,41 @@ import Blog from './pages/BlogPage/Blog';
 import BlogDetail from './pages/Blog-DetailPage/BlogDetail';
 import Contact from './pages/ContactsPage/Contact';
 import About from './pages/AboutPage/About';
+import { useState } from "react";
+import { css } from "@emotion/react";
+import theme from '../src/global/theme';
+
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(theme.isDarkMode);
+  
   return (
-    <div className="App">
+    <div className={`${'App'} ${isDarkMode ? 'App_dark' : 'App'}`}   >
       <Routes>
         <Route path="/" element={
-          <HomePage/>
+          <HomePage />
         } />
         <Route path="/services" element={
-          <Services1/>
-        }/>
+          <Services1 />
+        } />
         <Route path="/casestudies" element={
-          <CaseStudies/>
-        }/>
+          <CaseStudies />
+        } />
         <Route path="/casestudiesDetail" element={
-          <CaseStudiesDetail/>
-        }/>
+          <CaseStudiesDetail />
+        } />
         <Route path="/blog" element={
-          <Blog/>
-        }/>
+          <Blog />
+        } />
         <Route path="/blogDetail" element={
-          <BlogDetail/>
-        }/>
+          <BlogDetail />
+        } />
         <Route path="/contact" element={
-          <Contact/>
-        }/>
+          <Contact />
+        } />
         <Route path="/about" element={
-          <About/>
-        }/>
+          <About />
+        } />
       </Routes>
     </div>
   );

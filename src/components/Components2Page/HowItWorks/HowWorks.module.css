@@ -1,0 +1,195 @@
+.senior {
+  width: 100%;
+  height: 1144px;
+  background-image: url(./images/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.senior a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #22b8cf;
+}
+.senior p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  width:340px;
+ 
+}
+.LeftTop p{
+    margin-left: 53%;
+}
+.LeftBottom p{
+    margin-left: 53%;
+}
+.senior h1 {
+  font-family: "Barlow",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.HowitWorks h1 {
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 128px;
+}
+.HowitWorks p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 440px;
+  margin-left: 35%;
+  margin-top: 16px;
+}
+.HowitWorks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Planning hr {
+  background: #919eab;
+  height: 130px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 1px;
+}
+.Planning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 116px;
+}
+.Planning img {
+  padding-left: 2px;
+}
+.LeftTop {
+    margin-top: -33%;
+    margin-bottom: 223px;
+    text-align: right;
+    margin-right: 52%;
+}
+.LeftBottom{
+    text-align: right;
+    margin-right: 52%;
+}
+.LeftBottom a{
+    color: #0CD66E;
+}
+.PlanningRight{
+    text-align: left;
+    margin-left: 52%;
+    margin-top: -40%;
+}
+.RightTop a{
+    color: #FA541C;
+}
+.RightBottom a{
+    color: #FFC81A;
+}
+.RightBottom{
+    margin-top:31%;
+}
+.LeftTop p{
+  margin-right: 20px;
+}
+.none , .none2{
+  display: none;
+}
+
+@media (max-width: 768px) { 
+  .none, .none2{
+    display: block;
+    text-align: start;
+  }
+  .senior{
+    padding-left: 20px;
+  }
+  .RightTop, .RightTop h1 , .RightTop p , .RightBottom , .RightBottom h1 , .RightBottom p{
+    text-align: start;
+  }
+  .none2{
+    position: relative;
+    bottom: 38px;
+  }
+  .RightBottom{
+    position: relative;
+    bottom: 161px;
+  }
+  .RightTop{
+    position: relative;
+    bottom: 37px;
+  }
+  .none{
+    margin-top: 39px;
+  }
+  .RightBottom
+  .senior{ 
+    height: 143vh; 
+  } 
+  .HowitWorks p { 
+    margin-left: -6%; 
+  } 
+  .Planning { 
+    display: block; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 116px; 
+  } 
+  hr { 
+    margin-left: 6px; 
+  } 
+  .PlanningRight { 
+    margin-left: 6%; 
+    margin-top: -177%; 
+  } 
+  .RightBottom { 
+    margin-top: 57%; 
+  } 
+  .PlanningRight p { 
+    width: 274px; 
+    margin-right: 55%; 
+  } 
+  .LeftTop{
+    display: block;
+    margin-left: 500px;
+  }
+  .PlanningLeft p { 
+    text-align: start; 
+    padding-bottom: 10%; 
+  } 
+  .PlanningLeft { 
+    display: none; 
+  } 
+  .Planning img{
+    margin-right: 98%;
+  }
+  .adaptiveleft{ 
+    display: block; 
+    margin-top: -78%; 
+  } 
+  .adaptiveleft p{ 
+    width: 160%; 
+    margin-left: 2%; 
+  } 
+  .LeftTop{ 
+    text-align: start; 
+    margin-left: 20px; 
+    margin-bottom: 211px; 
+  } 
+  .LeftBottom{ 
+    text-align: start; 
+    margin-left: 20px; 
+  } 
+}

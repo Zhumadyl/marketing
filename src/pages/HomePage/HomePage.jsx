@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../../components/Footer/Footer'
 import Case from '../../components/Main2/Case/Case'
 import Pricing from '../../components/Main2/Pricing/Pricing'

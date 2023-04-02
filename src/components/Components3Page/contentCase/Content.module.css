@@ -1,7 +1,6 @@
-.wrp{   
-}
-.wrp img {
-    border-radius: 20px;
+
+#img{
+    border-radius: 6%;
 }
 
 .wrp>div {
@@ -29,4 +28,3 @@
 .content{
     margin-bottom: 30px;
 }
-

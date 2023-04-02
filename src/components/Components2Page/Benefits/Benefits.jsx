@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import css from './Benefits.module.css'
 import benefits from '../../../assets/benefits.svg'
 import point1 from '../../../assets/point1.svg'
 import point2 from '../../../assets/point2.svg'
 import point3 from '../../../assets/point3.svg'
 import classNames from "classnames";
+import theme from "../../../global/theme";
 
 
 
 function Benefits() {
+    const [isDarkMode, setIsDarkMode] = useState(theme.isDarkMode);
+
     return (
-        <div className={css.wrapper}>
-            <div className='container'>
+        <div className={css.wrapper} style={{backgroundColor: isDarkMode ? 'rgba(145, 158, 171, 0.12)' : '#F9FAFB'}}>
+            <div  className={`${'container'} ${isDarkMode ? 'dark' : 'container'}  `}  style={{backgroundColor: isDarkMode ? ' rgb(26 38 49 / 12%)' : '#F9FAFB'}}>
                 <h1>Benefits Achieved</h1>
                 <p>Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.</p>
 

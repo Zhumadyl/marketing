@@ -1,15 +1,16 @@
-
-
 .Result {
   display: flex;
-  height: 130vh;
+  height: 148vh;
   width: 100%;
+  margin-bottom: 100px;
 }
+
 .Brief {
   margin-left: 77px;
 }
+
 .Brief p {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -19,27 +20,31 @@
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
 .Brief h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   color: #212b36;
 }
+
 .HowWeWork {
   margin-left: 77px;
   margin-top: 40px;
   gap: 16px;
 }
+
 .HowWeWork h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   color: #212b36;
 }
+
 .HowWeWork p {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -49,13 +54,15 @@
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
 .Res {
   margin-left: 77px;
   margin-top: 40px;
   gap: 16px;
 }
+
 .Res p {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -65,35 +72,41 @@
   padding-top: 16px;
   padding-bottom: 16px;
 }
+
 .Res h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   color: #212b36;
 }
+
 .list {
   padding-left: 5px;
 }
+
 .Gallery {
   margin-left: 77px;
   margin-top: 40px;
   gap: 16px;
 }
+
 .Gallery h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
   color: #212b36;
 }
+
 .images {
   display: flex;
   margin-top: 40px;
   gap: 32px;
   border-radius: 10px;
 }
+
 .Img1,
 .Img2,
 .Img3 {
@@ -101,6 +114,7 @@
   border-radius: 8px;
 
 }
+
 .Right {
   display: flex;
   flex-direction: column;
@@ -108,41 +122,48 @@
   padding: 40px;
   gap: 24px;
   width: 342px;
-  height: 435px;
+  height: 544px;
   background-color: #f9fafb;
-  margin-left: 398px;
+  margin-left: 298px;
   border-radius: 8px;
 }
+
 .Right a {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
   color: #919eab;
 }
+
 .Right p {
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
   color: #212b36;
+  margin-bottom: 10px;
 }
+
 .Right h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   color: #212b36;
 }
+
 hr {
   width: 262px;
 }
+
 .WebSites {
   display: flex;
   gap: 21px;
 }
+
 .customPrevButton {
   right: 25px;
   position: absolute;
@@ -160,6 +181,7 @@ hr {
   background: transparent;
   cursor: pointer;
 }
+
 .sliderButton {
   position: absolute;
   height: 10px;
@@ -174,9 +196,135 @@ hr {
   border-radius: 50px;
   cursor: pointer;
 }
+
 ul {
   list-style: inside;
 }
-.alice-carousel__dots > li{
+
+.list li {
+  margin-top: 10px;
+}
+
+.alice-carousel__dots>li {
   display: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .Result {
+    width: 100%;
+    margin-top: 150px;
+    flex-direction: column-reverse;
+  }
+
+  .Right {
+    margin: 0 auto;
+    width: 90%;
+    margin-left: 6%;
+  }
+
+  .WebSites {
+    margin-bottom: -25px;
+    margin-top: -10px;
+  }
+
+  .WebSites h1 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .Right>div {
+    text-align: start;
+  }
+
+  .Right h1 {
+    margin: 20px 0;
+    text-align: start;
+  }
+
+  .Right {
+    margin: 0 auto;
+    height: 700px;
+  }
+
+  .Right p {
+    text-align: start;
+    width: 90%;
+    margin-right: 10%;
+  }
+
+  .Web p {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .HowWeWork,
+  .Res,
+  .Brief {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .Brief>p,
+  .HowWeWork>p,
+  .Res>p {
+    width: 100%;
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: start;
+  }
+
+
+  .Brief>h1,
+  .HowWeWork>h1,
+  .Res>h1 {
+    text-align: start;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .list li {
+    text-align: start;
+  }
+
+  .Gallery {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .Img2,
+  .Img3 {
+    display: none;
+  }
+
+  .Img1 {
+    width: 145%;
+    margin-bottom: 60px;
+    border-radius: 8%;
+  }
+
+  .Gallery h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: start;
+  }
+  .sliderButton{
+    bottom: 92%;
+    margin-right: 0px;
+  }
+  .customNextButton{
+    left: 88%;
+  }
+  .customPrevButton{
+    right:15%;
+  }
 }
