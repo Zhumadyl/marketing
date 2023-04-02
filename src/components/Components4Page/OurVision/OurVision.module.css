@@ -1,6 +1,9 @@
 .MainVision {
   height: 95vh;
+  width: 100%;
+  ;
 }
+
 .Vision {
   display: flex;
   flex-direction: column;
@@ -11,20 +14,23 @@
   height: 648px;
   align-items: center;
   border-radius: 20px;
-  margin-left: 150px;
+  margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .Vision h1 {
-  margin-top: -40px;  ;
+  margin-top: -40px;
+  ;
   font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   color: #ffffff;
 }
+
 .Vision p {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -34,8 +40,44 @@
 
 
 }
-.Player{
-    width: 64px;
-    height: 64px;
-    margin-top: 183px;
+
+.Player {
+  width: 64px;
+  height: 64px;
+  margin-top: 183px;
+}
+
+@media (max-width: 768px) {
+  .Vision {
+    width: 88%;
+    height: 188px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .MainVision{
+    margin-bottom: -400px;
+  }
+
+  .Vision img {
+    position: relative;
+    bottom: 240px;
+  }
+
+  .Vision h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #212B36;
+    position: relative;
+    bottom: 160px;
+  }
+
+  .Vision p {
+    margin-top: -140px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #212B36;
+  }
 }

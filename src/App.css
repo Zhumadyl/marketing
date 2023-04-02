@@ -1,4 +1,6 @@
-
+.dark h1{
+  color: white;
+}
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +9,18 @@
 .container {
   width: 85%;
   margin: 0 auto;
+
+}
+.dark{
+  background-color: #161C24;
+}
+.App_dark{
+  background-color: #161C24;
 }
 .imgBig {
   margin-top: 80px;
   width: 100%;
+  border-radius: 16px;
   height: 648px;
 }
 .mama{
@@ -87,17 +97,9 @@ p {
   height: 500px;
   object-fit: cover;
 }
-
-li {
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 20px;
-  margin: 0 5px;
-  padding: 0;
-  cursor: pointer;
+.ForFlex{
+  display: flex;
 }
-
 
 *{
   font-family: 'Poppins' , sans-serif;
@@ -122,4 +124,21 @@ li {
     display: block;
   }
   
+}
+
+
+
+.container.dark {
+  background-color: #161C24;
+}
+
+.container.dark h1 {
+  color: #ffffff;
+}
+
+.container.dark p {
+  color: #919EAB;
+}
+.container.dark b{
+  color: white;
 }

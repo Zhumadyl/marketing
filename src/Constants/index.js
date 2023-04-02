@@ -5,22 +5,22 @@ export const sideBarElements = [
     },
     {
         title: 'Branding ',
-        to: '/caseStudies'
+        to: '/caseStudies1'
     },
     {
         title: 'Digital',
-        to: '/caseStudies'
+        to: '/caseStudies2'
     },
     {
         title: 'Marketing',
-        to: '/caseStudies'
+        to: '/caseStudies3'
     },
     {
         title: 'SEO',
-        to: '/caseStudies'
+        to: '/caseStudies4'
     },
     {
         title: 'Development',
-        to: '/caseStudies'
+        to: '/caseStudies5'
     }
 ];

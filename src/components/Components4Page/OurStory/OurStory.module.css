@@ -1,0 +1,196 @@
+.senior {
+  width: 100%;
+  height: 1144px;
+}
+
+.senior a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #22b8cf;
+}
+
+.senior p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  width: 340px;
+
+}
+
+.LeftTop p {
+  margin-left: 53%;
+}
+
+.LeftBottom p {
+  margin-left: 53%;
+}
+
+.senior h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #212B36;
+
+}
+
+.HowitWorks h1 {
+  color: #212B36;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 128px;
+}
+
+.HowitWorks p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 440px;
+  margin-left: 36%;
+  margin-top: 16px;
+}
+
+.HowitWorks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Planning hr {
+  height: 130px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 1px;
+  background: #F9FAFB
+}
+
+.Planning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 116px;
+}
+
+.Planning img {
+  padding-left: 2px;
+}
+
+.LeftTop {
+  margin-top: -34%;
+  margin-bottom: 223px;
+  text-align: right;
+  margin-right: 52%;
+}
+
+.LeftBottom {
+  text-align: right;
+  margin-right: 52%;
+}
+
+.LeftBottom a {
+  color: #0CD66E;
+}
+
+.PlanningRight {
+  text-align: left;
+  margin-left: 52%;
+  margin-top: -41.4%;
+}
+
+.RightTop a {
+  color: #FA541C;
+}
+
+.RightBottom a {
+  color: #FFC81A;
+}
+
+.RightBottom {
+  margin-top: 31%;
+}
+
+@media (max-width: 768px) { 
+  .senior{ 
+    height: 140vh;
+    padding-left: 20px; 
+  } 
+  .HowitWorks p { 
+    margin-left: -6%; 
+  } 
+  .none, .none2{
+    display: block;
+    text-align: start;
+  }
+  .RightTop, .RightTop h1 , .RightTop p , .RightBottom , .RightBottom h1 , .RightBottom p{
+    text-align: start;
+  }
+  .none2{
+    position: relative;
+    top: 37px;
+  }
+  .RightBottom{
+    position: relative;
+    bottom: 198px;
+  }
+  .RightTop{
+    position: relative;
+    bottom: 37px;
+  }
+  .none{
+    margin-top: 39px;
+  }
+  .Planning { 
+    display: block; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 116px;
+    margin-right: 100%; 
+  } 
+  hr { 
+    margin-left: 6px; 
+  } 
+  .PlanningRight { 
+    margin-left: 6%; 
+    margin-top: -177%; 
+  } 
+  .RightBottom { 
+    margin-top: 57%; 
+  } 
+  .PlanningRight p { 
+    width: 274px; 
+    margin-right: 55%; 
+  } 
+  .PlanningLeft p { 
+    text-align: start; 
+    padding-bottom: 10%; 
+  } 
+  .PlanningLeft { 
+    display: none; 
+  } 
+  .adaptiveleft{ 
+    display: block; 
+    margin-top: -78%; 
+  } 
+  .adaptiveleft p{ 
+    width: 160%; 
+    margin-left: 2%; 
+  } 
+  .LeftTop{ 
+    text-align: start; 
+    margin-left: 20px; 
+    margin-bottom: 211px; 
+  } 
+  .LeftBottom{ 
+    text-align: start; 
+    margin-left: 20px; 
+  } 
+}

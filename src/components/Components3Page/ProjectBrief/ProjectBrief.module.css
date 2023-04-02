@@ -35,5 +35,27 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 24px;
+  text-decoration: none;
   color: #919eab;
+}
+
+
+@media (max-width: 768px){
+  .MainImg{
+    margin: 0 auto;
+    margin-top: -24px;
+    width: 90%;
+    margin-left: 5%;
+    background-size: contain;
+    height: 187px;
+  }
+  .main{
+    width: 100%;
+  }
+  .under{
+    width: 80%;
+    padding-top: 40px;
+    padding-left: 6%;
+    
+  }
 }

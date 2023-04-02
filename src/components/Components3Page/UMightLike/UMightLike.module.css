@@ -1,6 +1,6 @@
 .MightLike {
-  width: 1440px;
-  height: 812px;
+  width: 100%;
+  height: 612px;
 }
 
 .CardOne,
@@ -9,55 +9,143 @@
   display: flex;
   flex-direction: column;
 }
+.right a{
+  text-decoration: none;
+}
+
 .CardOneImg {
   border-radius: 8px;
-  width: 425px;
-  height: 425px;
 }
+
 .ForFlex a {
   padding-top: 20px;
   padding-left: 20px;
   color: #919eab;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
 }
+
 .ForFlex h3 {
   padding-top: 8px;
   padding-left: 20px;
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   color: #212b36;
-  width: 81%;
+  width: 90%;
+  line-height: 30px;
 }
+
 .ForFlex {
-  width: 99%;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   padding-top: 48px;
   gap: 32px;
+  margin-left: 3%;
 }
-.right a {
+
+.right a,
+.right2 a {
   color: #fa541c;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
+  
 }
-.right {
+
+.right,
+.right2 {
   display: flex;
   margin-left: 93%;
   gap: 11px;
+  margin-top: -40px;
 }
+.right{
+  position: relative;
+  right: 5%;
+}
+.ForFlex a{
+  text-decoration: none;
+}
+
 .top {
   margin-top: 120px;
+  margin-bottom: 20px;
 }
+
+.right2 {
+  display: none;
+}
+
 .top h1 {
-  font-family: "Barlow",sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
+  margin-left: 3%;
   color: #212b36;
+}
+.ForFlex a{
+  padding-left: 0;
+}
+@media (max-width: 768px) {
+  .MightLike {
+    width: 100%;
+    height: 1570px;
+  }
+  
+  .top h1 {
+    margin-top: -24px;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .ForFlex {
+    flex-direction: column;
+  }
+  .ForFlex h3{
+    padding-left: 0;
+  }
+
+  .right2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    margin-top: 50px;
+  }
+
+  .CardOneImg {
+    width: 110%;
+    margin-left: -7px;
+    height: 335px;
+    border-radius: 5%;
+  }
+
+  .CardOne a,
+  .CardOne h3,
+  .CardTwo a,
+  .CardTwo h3,
+  .CardThird a,
+  .CardThird h3 {
+    text-align: start;
+    width: 100%;
+  }
+
+  .CardOne h3 , .CardTwo h3  , .CardThird h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .CardOne , .CardTwo , .CardThird{
+    margin-bottom: 12px;
+  }
+
 }

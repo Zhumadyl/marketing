@@ -45,6 +45,8 @@
 }
 
 .rightPart h1 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
@@ -106,6 +108,7 @@
 
 #id {
     margin-top: 10px;
+    padding-top: 14px;
     margin-left: 35%;
 }
 
@@ -129,5 +132,81 @@
     width: 150px;
     border: none;
     border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .leftPart>img {
+        display: none;
+    }
+
+    .wrapper {
+        flex-direction: column-reverse;
+        width: 110%;
+    }
+
+    .rightPart {
+        margin: 0;
+        width: 100%;
+    }
+
+    .rightPart h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        width: 100%;
+        text-align: start;
+    }
+
+    .rightPart>p {
+        text-align: start;
+    }
+
+    .flex {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .flex>button {
+        width: 30%;
+        font-weight: 400;
+        font-size: 14px;
+        height: 34px;
+        width: fit-content;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+    .form{
+        width: 91%;
+    }
+    .userData{
+        width: 100%;
+    }
+    .form > input{
+        width: 100%;
+    }
+    .budget >p{
+        text-align: start;
+    }
+    #msg{
+        padding-top: 24px;
+    }
+    .form > button{
+        width: 100%;
+    }
+    .leftPart{
+        margin-top: 64px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .flexer{
+        width: 80%;
+        
+    }
+    .flexer div {
+        text-align: start;
+    }
+
+
+
 
 }
