@@ -180,6 +180,9 @@
 #id button {
     cursor: pointer;
 }
+#id button:hover{
+    background-color: #212B36;
+}
 
 
 .wrapper>div h1 {

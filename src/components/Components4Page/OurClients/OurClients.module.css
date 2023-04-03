@@ -1,61 +1,50 @@
-.OurClients {
-  height: 512px;
-  width: 100%;
-  align-items: center;
-}
-
-.OurClients h1 {
-  text-align: center;
-  margin-top: 120px;
-  margin-bottom: 83px;
-  font-family: "Barlow", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
-}
-
-.img1 {
-  display: flex;
-  gap: 74px;
-  margin-left: 423px;
-}
-
-.img2 {
-  display: flex;
-  gap: 75px;
-  margin-left: 423px;
-  margin-top: 75px;
-}
-
-@media (max-width: 768px) {
-  .OurClients {
-    width: 100%;
-    margin-bottom: 150px;
-
-  }
-
-  .OurClients h1 {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-  }
-
-  .Clients {
-    width: 100%;
-  }
-
-  .img1,
-  .img2 {
-    width: 100%;
-    flex-wrap: wrap;
-    margin-left: 0;
-  }
-
-  .img1 img,
-  .img2 img {
-    width: 25%;
-    margin: 0 auto;
-  }
-
+.OurClients { 
+  height: 512px; 
+  width: 100%; 
+} 
+ 
+.OurClients h1 { 
+  text-align: center; 
+  margin-top: 120px; 
+  margin-bottom: 83px; 
+  font-family: "Barlow"; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-size: 48px; 
+  line-height: 64px; 
+} 
+.img1 { 
+  display: flex; 
+  gap: 74px; 
+  margin-left: 423px; 
+} 
+.img2 { 
+  display: flex; 
+  gap: 75px; 
+  margin-left: 423px; 
+  margin-top: 75px; 
+} 
+@media (max-width: 768px) { 
+  .OurClients{ 
+    height: 80vh; 
+  } 
+  .img1 { 
+    display: flex; 
+    flex-direction: column; 
+    height: 10vh; 
+    width: 10vh; 
+    gap: 74px; 
+    margin-left: 30px; 
+  } 
+  .img2 { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: end; 
+    height: 10vh; 
+    width: 10vh; 
+    gap: 74px; 
+    margin-left: 284px; 
+    margin-top: 151px; 
+  } 
+ 
 }

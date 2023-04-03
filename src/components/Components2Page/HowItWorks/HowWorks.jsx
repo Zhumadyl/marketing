@@ -53,7 +53,7 @@ function HowWorks() {
             Donec mollis hendrerit risus.
           </p>
           <div className={styles.none}>
-            <a>STEP 2</a>
+            <a style={{color: '#22B8CF'}}>STEP 2</a>
             <h1>Research</h1>
             <p>
               Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio.
@@ -64,14 +64,14 @@ function HowWorks() {
         <div className={styles.RightBottom}>
 
           <div className={styles.none2}>
-            <a>STEP 4</a>
+            <a style={{color: ''}}>STEP 3</a>
             <h1>Results</h1>
             <p>
               Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio.
               Donec mollis hendrerit risus.
             </p>
           </div>
-          <a>STEP 3</a>
+          <a style={{color: '#0CD66E'}}>STEP 4</a>
           <h1>Optimizing</h1>
           <p>
             Curabitur ullamcorper ultricies nisi. Praesent nonummy mi in odio.

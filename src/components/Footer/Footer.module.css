@@ -67,9 +67,12 @@
 
 .rightFoot {
     display: grid;
-    margin-top: 170px;
-    margin-left: 30%;
+    margin-top: 130px;
+    margin-left: 22%;
     width: 50%;
+}
+#id{
+    margin-left: 2px;
 }
 
 .rightFoot button {
@@ -145,6 +148,7 @@
 .inputFoot2 {
     display: flex;
     margin-left: auto;
+    margin-top: -130px;
     padding-left: 10px;
 }
 
@@ -179,7 +183,11 @@
 
 
 .contact {
-    margin-top: -70px;
+    margin-top: -90px;
+}
+.contact a{
+    text-decoration: none;
+    color: #212B36;
 }
 
 .flexFinal {
@@ -243,6 +251,7 @@
         width: 110%;
         margin-left: -6%;
         margin-bottom: 25px;
+        margin-top: 0;
     }
     .socials{
         width: 100%;
@@ -348,9 +357,6 @@
         width: 100%;
         text-align: start;
 
-    }
-    .rightFoot button{
-        margin-left: 24%;
     }
 
 

@@ -33,6 +33,11 @@ function Header() {
             <div className={styles.Pages}>
               <img src={Ellipse} alt="" />
               <a href="">Pages</a>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
               <img src={Vector} alt="" />
             </div>
 

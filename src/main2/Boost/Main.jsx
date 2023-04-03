@@ -23,7 +23,7 @@ function Main() {
               </p>
             </div>
             <div className={styles.bottom}>
-              <button className={styles.btn}>
+              <button className={styles.btn} name={styles.Hover}>
                 <a href="/contact" className={styles.btnn} >Try For Free</a>
               </button>
               <div className={styles.free}>

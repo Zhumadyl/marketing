@@ -73,7 +73,10 @@
         width: 100%;
         display: block;
     }
-
+    
+.content b{
+    margin: 0;
+}
     .wrapper>div>div>img {
         width: 80%;
     }
@@ -107,7 +110,6 @@
         margin-bottom: 15px;
         text-align: start;
         display: flex;
-        width: 50%;
         margin-top: 10px;
         justify-content: start;
     }
