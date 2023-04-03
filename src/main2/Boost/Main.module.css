@@ -1,3 +1,5 @@
+
+
 .Main {
   display: flex;
   justify-content: space-between;
@@ -31,7 +33,7 @@
 }
 
 .btn {
-  width: 132px;
+  width: 162px;
   height: 48px;
   border-radius: 8px;
   background-color: #fa541c;

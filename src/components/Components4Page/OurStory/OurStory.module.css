@@ -117,14 +117,17 @@
 .RightBottom {
   margin-top: 31%;
 }
-
+.none , .none2{
+  display: none;
+}
 @media (max-width: 768px) { 
   .senior{ 
     height: 140vh;
     padding-left: 20px; 
   } 
   .HowitWorks p { 
-    margin-left: -6%; 
+    margin-left: 3%;
+    width: 90%; 
   } 
   .none, .none2{
     display: block;

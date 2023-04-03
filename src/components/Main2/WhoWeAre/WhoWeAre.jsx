@@ -12,7 +12,8 @@ import theme from "../../../global/theme";
 import num1 from '../../../assets/#.png'
 import num2 from '../../../assets/#1.png'
 import num3 from '../../../assets/#2.png'
-
+import three2 from '../../../assets/three2.png'
+import two0 from '../../../assets/two0.png'
 function Main() {
     const [isDarkMode, setIsDarkMode] = useState(theme.isDarkMode);
 
@@ -54,7 +55,7 @@ function Main() {
                     </div>
                     <div className={css.flex}>
                         <div className={css.static}>
-                            <img src={number1} alt="" width='83px' height='64px' style={{ display: isDarkMode ? 'none' : 'black' }} />
+                            <img src={three2} alt="" width='83px' height='64px' style={{ display: isDarkMode ? 'none' : 'black' }} />
                             <img src={num2} alt="" width='83px' height='64px' style={{ display: isDarkMode ? 'block' : 'none' }} />
                             <p>Happy CLIENTS</p>
                         </div>
@@ -67,7 +68,7 @@ function Main() {
                     </div>
                     <div className={css.flex}>
                         <div className={css.static}>
-                            <img src={number1} alt="" width='83px' height='64px' style={{ display: isDarkMode ? 'none' : 'black' }} />
+                            <img src={two0} alt="" width='65px' height='64px' style={{ display: isDarkMode ? 'none' : 'black' }} />
                             <img src={num3} alt="" width='83px' height='64px' style={{ display: isDarkMode ? 'block' : 'none' }} />
                             <p>YEARS OF EXPERIENCE</p>
                         </div>

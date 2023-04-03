@@ -19,14 +19,14 @@ function Testimonials() {
     const prevButton = (
         <button className={classNames(css.customPrevButton, css.sliderButton)}>
             <span className="visually-hidden">
-                <img src={isDarkMode ? arrowP : arrowPD} alt="" width='30px' />
+                <img src={isDarkMode ? arrowP : arrowP} alt="" width='30px' />
             </span>
         </button>
     );
     const nextButton = (
         <button className={classNames(css.customNextButton, css.sliderButton)}>
             <span className="visually-hidden">
-                <img src={isDarkMode ? arrowN : arrowND} alt="" width='30px' />
+                <img src={isDarkMode ? arrowN : arrowN} alt="" width='30px' />
             </span>
         </button>
     );

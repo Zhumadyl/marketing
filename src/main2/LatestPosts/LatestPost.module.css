@@ -135,7 +135,11 @@ h1 {
   width: 100%;
 }
 .MainLatePost{
-  margin-bottom: 100px;
+  margin-top: -50px;
+  margin-bottom: 190px;
+}
+.FirstPost{
+  margin-bottom: 0px;
 }
 .LatePosts a {
   text-decoration: none;
