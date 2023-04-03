@@ -6,7 +6,7 @@ import slack from '../../../assets/Vector2.svg'
 import vimeo from '../../../assets/Shape.svg'
 import netflix from '../../../assets/Shape3.svg'
 import heroku from '../../../assets/logo.svg'
-import img from '../../../assets/IMG.png'
+import img from '../../../assets/IMG.svg'
 import number1 from '../../../assets/one50.png'
  
 function Main() {

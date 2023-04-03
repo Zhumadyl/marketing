@@ -22,7 +22,7 @@ function CaseStudies3() {
                         {i + 1}
                     </div>
                 </div>
-            );
+            ); 
         },
     };
 

@@ -4,8 +4,8 @@ import OfflineSEO from '../../components/Components2Page/Offline SEO/OfflineSEO'
 import ServicesIncl from '../../components/Components2Page/ServicesIncl/ServicesIncl'
 import Footer from '../../components/Footer/Footer'
 import Testimonials from '../../components/Main2/Testimonials/Testimonials'
-import Header from '../../Main2/Header/Header'
-import LatePosts from '../../Main2/LatestPosts/LatestPost'
+import Header from '../../main2/Header/Header'
+import LatePosts from '../../main2/LatestPosts/LatestPost'
 
 function Services() {
   return (
