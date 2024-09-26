@@ -137,6 +137,7 @@ function Posts() {
             <button className={styles.btn4}>Design</button>
             <button className={styles.btn5}>Management</button>
           </div>
+          
         </div>
         <div className={styles.Social}>
           <p style={{color: isDarkMode ? 'white' : '#212B36'}}>Share:</p>

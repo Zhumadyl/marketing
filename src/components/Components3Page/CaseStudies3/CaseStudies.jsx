@@ -36,7 +36,8 @@ function CaseStudies3() {
                 <h1>Our Case Studies</h1>
                 <p>Nullam tincidunt adipiscing enim. Mauris sollicitudin fermentum libero.</p>
                 <div >
-                    <CustomLink />
+                    <CustomLink  />
+                    
                 </div>
                 <Slider {...settings}>
                     <ListCases />

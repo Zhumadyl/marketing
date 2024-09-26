@@ -10,6 +10,8 @@ import LatePosts from '../../Main2/LatestPosts/LatestPost'
 import Questions from '../../components/Main2/Questions/Questions'
 import OurStory from '../../components/Components4Page/OurStory/OurStory'
 import OurClients from '../../components/Components4Page/OurClients/OurClients'
+import GreatTeam from '../../AboutComponents/GreatTeam/GreatTeam'
+import Card from '../../AboutComponents/Card/Card'
 function About() {
   return (
     <div>
@@ -18,7 +20,7 @@ function About() {
       <OurVision/>
       <OurCoreValue/>
       <OurStory/>
-      {/* <Team/> */}
+      <GreatTeam/>
       <Testimonials/>
       <OurClients/>
       <LatePosts/>

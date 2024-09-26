@@ -7,12 +7,11 @@
   background-size: cover;
 }
 
-
 .Team {
   font-weight: 600;
   font-size: 12px;
   line-height: 20px;
-  color: #919EAB;
+  color: #919eab;
 }
 
 .left h1 {
@@ -59,28 +58,25 @@
   text-align: center;
   margin-left: 122px;
   grid-gap: 100px;
-
 }
 
 .Flexing {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
 }
 
 .ThreeImg,
 .SecondImg,
 .firstImg {
   border-radius: 18px;
-
 }
 
 .CardOne h1 {
   padding-top: 20px;
   width: 100%;
   height: 28px;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -101,7 +97,7 @@
   padding-top: 20px;
   width: 100%;
   height: 28px;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -122,7 +118,7 @@
   padding-top: 20px;
   width: 82%;
   height: 28px;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -161,13 +157,33 @@
   gap: 32px;
 }
 
-/* .CardThree{
-width: 270px;
-height: 360px;
+.CardOne2 {
+  margin-left: 60%;
+}
 
-} */
+.CardOne2 h1 {
+  padding-top: 20px;
+  width: 100%;
+  height: 28px;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.CardOne2 p {
+  padding-top: 13px;
+  color: #919eab;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+
 .customPrevButton {
-  right: 174%;
+  right: 175%;
   position: absolute;
   width: 40px;
   height: 40px;
@@ -178,7 +194,7 @@ height: 360px;
 }
 
 .customNextButton {
-  right: 168%;
+  right: 171%;
   position: absolute;
   width: 40px;
   height: 39px;
@@ -193,7 +209,6 @@ height: 360px;
   height: 10px;
   top: 80%;
   transform: translateY(-50%);
-
   height: 39px;
   background-color: #fff;
   border: none;
@@ -205,10 +220,19 @@ height: 360px;
   border: 1px solid rgba(250, 84, 28, 0.24);
   cursor: pointer;
 }
+.dots{
+  display: none;
+}
 
 @media (max-width: 768px) {
   .sliderButton {
     display: none;
+  }
+  .dots{
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    margin-top: 45px;
   }
 
   .Meet {
@@ -222,44 +246,64 @@ height: 360px;
     margin: 0;
   }
 
+  .left>h1 {
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FA541C;
+  }
+
   .Right {
-    
+
     width: 100%;
     margin: 0;
   }
-  .CardTwo , .CardThree{
+
+  .CardTwo,
+  .CardThree {
     display: none;
- 
+
   }
-  .CardOne img{
+
+  .CardOne img {
     margin-top: 64px;
     width: 90%;
   }
-  .ForCarosel{
+
+  .ForCarosel {
     display: block;
   }
 
-  #n2{
+  #n2 {
     width: 140%;
     margin-left: 7%;
   }
-  #n3{
+
+  #n3 {
     width: 140%;
     margin-left: 7%;
   }
-  .CardOne h1{
+
+  .CardOne h1 {
     text-align: center;
   }
-  #n2 + h1 , #n3 + h1 {
+
+  #n2+h1,
+  #n3+h1 {
     margin-left: 28%;
   }
-  .CardOne p{
-    margin-left: 55%;
+
+  .CardOne p {
+    margin-top: 8px;
+    text-align: center;
   }
-  #p1{
+
+  #p1 {
     margin: 0;
   }
 
-  
+
 
 }
